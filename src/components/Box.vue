@@ -1,22 +1,21 @@
 <template>
     <div 
     class="px-4 max-w-5xl mx-auto"
-    :class="class"
+    :class="props.class"
     >
         <slot/>
     </div>
 </template>
 
-<script lang="ts">
-    import {defineComponent} from 'vue'
+<script lang="ts" setup>
 
-    export default defineComponent({
-        name : 'Box',
-        props : {
-            class : {
-                type : String,
-            }
-        }
-    })
+import { defineProps } from 'vue';
+
+const props = defineProps({
+    class : {
+        type : String
+    }
+});
+
 </script>
 

@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ['./public/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   // content: [],
   theme: {
     colors : {
       white : '#ffffff',
+      black : '#000000',
       orange : '#FFA500',
       white20 : '#ffffff33',
       trans: '#00000000',
