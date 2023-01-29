@@ -9,7 +9,8 @@ module.exports = {
       orange : '#FFA500',
       white20 : '#ffffff33',
       trans: '#00000000',
-      gray:'#333333'
+      gray:'#333333',
+      'second-white' : '#F1F1F1'
     },
     extend: {
       gridTemplateColumns : {

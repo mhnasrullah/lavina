@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "Chair",
+        "item" : 130,
+        "width" : 140,
+        "image" : "/assets/images/category/chair.png"
+    },
+    {
+        "name" : "Table",
+        "item" : 162,
+        "width" : 225,
+        "image" : "/assets/images/category/table.png"
+    },
+    {
+        "name" : "Cabinet",
+        "item" : 94,
+        "width" : 144,
+        "image" : "/assets/images/category/cabinet.png"
+    },
+    {
+        "name" : "Lamp",
+        "item" : 996,
+        "width" : 200,
+        "image" : "/assets/images/category/lamp.png"
+    },
+    {
+        "name" : "Bed",
+        "item" : 166,
+        "width" : 220,
+        "image" : "/assets/images/category/bed.png"
+    },
+    {
+        "name" : "Cupboard",
+        "item" : 53,
+        "width" : 145,
+        "image" : "/assets/images/category/cupboard.png"
+    }
+]

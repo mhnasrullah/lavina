@@ -15,20 +15,22 @@ const baseStyle = 'py-2 rounded-lg text-sm'
 interface Props {
     style : 'primary' | 'secondary',
     as? : 'button' | 'router-link',
-    href? : RouteLocationRaw
+    href? : RouteLocationRaw,
+    class? : string
 }
+
+const {style,as,href,class : classAdd} = withDefaults(defineProps<Props>(),{
+    as : 'button'
+})
 
 const styleButton = computed(()=>{
     switch (style) {
         case 'primary' : 
-            return `bg-orange text-white ${baseStyle}`;
+            return `bg-orange text-white ${classAdd ? classAdd : ' '} ${baseStyle}`;
         case 'secondary' : 
-            return `bg-white text-black ${baseStyle}`
+            return `bg-white text-black ${classAdd ? classAdd : ' '} ${baseStyle}`
     }
 })
 
-const {style,as,href} = withDefaults(defineProps<Props>(),{
-    as : 'button'
-})
 
 </script>

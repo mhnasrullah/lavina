@@ -6,13 +6,13 @@
     ><slot/></h1>
     <h2 
     v-else-if="type === 'lg'"
-    class=""
+    class="font-semibold text-lg lg:text-3xl"
     :class="style"><slot/></h2>
 </template>
 
 <script setup lang="ts">
 
-    import {defineProps} from 'vue'
+    import {defineProps,computed} from 'vue'
 
     interface PropsType{
         type : 'header' |'lg',
@@ -24,6 +24,6 @@
         color : 'text-white'
     })
 
-    const style = `${color} ${classAdd && classAdd}`
+    const style = computed(()=> `${color} ${classAdd && classAdd}`)
 
 </script>

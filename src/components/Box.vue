@@ -11,11 +11,11 @@
 
 import { defineProps } from 'vue';
 
-const props = defineProps({
-    class : {
-        type : String
-    }
-});
+interface Props {
+    class? : string
+}
+
+const props = defineProps<Props>();
 
 </script>
 
