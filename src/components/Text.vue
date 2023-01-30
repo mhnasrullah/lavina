@@ -16,7 +16,7 @@
 
     interface PropsType{
         type : 'header' |'lg',
-        color? : 'text-white' | 'text-gray' |'text-black',
+        color? : 'text-white' | 'text-gray' |'text-black'| 'text-orange',
         class? : string
     }
 

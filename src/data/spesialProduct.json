@@ -1,0 +1,12 @@
+[
+    {
+        "discount" : "50% OFF ALL ITEM",
+        "name" : "Choice your interior better in Lavina style",
+        "image" : "/assets/images/spesialProduct/discA.jpg"
+    },
+    {
+        "discount" : "20% OFF ALL ITEM",
+        "name" : "Improve your interior view with Lavina collection",
+        "image" : "/assets/images/spesialProduct/discB.jpg"
+    }
+]

@@ -6,7 +6,7 @@
             type="lg">Product Categories</Text>
             <router-link to="/" class="text-[#00000088] text-xs hover:underline block transition-all">see all</router-link>
         </Box>
-        <Box class="relative mt-6">
+        <Box class="relative mt-6 h-80">
             <Swiper
             :navigation="navigation"
             :modules="modules"
