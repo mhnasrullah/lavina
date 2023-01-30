@@ -1,0 +1,58 @@
+[
+    {
+        "name" : "Lampu Meja Astrid",
+        "image" : "/assets/images/products/lampu-astrid.png",
+        "star" : 5,
+        "price" : 120000,
+        "category" : "Lamp"
+    },
+    {
+        "name" : "Kursi Dofta",
+        "image" : "/assets/images/products/kursi-dofta.png",
+        "star" : 4,
+        "price" : 600000,
+        "category" : "Chair"
+    },
+    {
+        "name" : "Lampu Lauters",
+        "image" : "/assets/images/products/lampu-lauters.png",
+        "star" : 5,
+        "price" : 129000,
+        "category" : "Lamp"
+    },
+    {
+        "name" : "Kursi Jati Asmara",
+        "image" : "/assets/images/products/kursi-jati-asmara.png",
+        "star" : 5,
+        "price" : 230000,
+        "category" : "Chair"
+    },
+    {
+        "name" : "Meja Oak Double",
+        "image" : "/assets/images/products/meja-oak-double.png",
+        "star" : 4,
+        "price" : 120000,
+        "category" : "Table"
+    },
+    {
+        "name" : "Meja Minimalist",
+        "image" : "/assets/images/products/meja-minimalist.png",
+        "star" : 4,
+        "price" : 500000,
+        "category" : "Table"
+    },
+    {
+        "name" : "Cabinet Artis",
+        "image" : "/assets/images/products/cabinet-artis.png",
+        "star" : 5,
+        "price" : 889000,
+        "category" : "Cabinet"
+    },
+    {
+        "name" : "Pot Sevraska",
+        "image" : "/assets/images/products/pot-sevraska.png",
+        "star" : 5,
+        "price" : 130000,
+        "category" : "Pot"
+    }
+]
