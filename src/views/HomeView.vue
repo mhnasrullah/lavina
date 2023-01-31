@@ -6,6 +6,7 @@
   <BestSelling/>
   <NewCollection/>
   <Benefits/>
+  <Articles/>
 </template>
 
 <script lang="ts" setup>
@@ -16,4 +17,5 @@ import SpesialProduct from '@/sections/SpesialProduct.vue';
 import BestSelling from '@/sections/BestSelling.vue';
 import NewCollection from '@/sections/NewCollection.vue';
 import Benefits from '@/sections/Benefits.vue';
+import Articles from '@/sections/Articles.vue';
 </script>
