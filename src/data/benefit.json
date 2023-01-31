@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Best Quality",
+        "description" : "100% Produk UMKM Indonesia. Dibuat dengan sepenuh hati dengan kualitas terbaik.",
+        "image" : "/assets/icons/best-quality.svg"
+    },
+    {
+        "name" : "Free Shipping",
+        "description" : "Dapatkan banyak promo menarik & bebas biaya kirim ke seluruh Indonesia.",
+        "image" : "/assets/icons/free-shipping.svg"
+    },
+    {
+        "name" : "24/7 Support",
+        "description" : "Layanan Lavina memberikan pelayanan yang maksimal dengan Customer Support 24/7.",
+        "image" : "/assets/icons/always-support.svg"
+    },
+    {
+        "name" : "Best Price",
+        "description" : "Dengan harga terjangkau, Anda sudah bisa memiliki furniture terbaik, mewah dan nyaman.",
+        "image" : "/assets/icons/best-price.svg"
+    }
+]

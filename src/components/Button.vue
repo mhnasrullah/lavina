@@ -1,7 +1,7 @@
 <template>
 
 <button v-if=" as === `button` " :class="styleButton"><slot/></button>
-<router-link v-else-if="as === 'router-link' && href" :to="href"><slot/></router-link>
+<router-link v-else-if="as === 'router-link' && href" :class="styleButton" :to="href"><slot/></router-link>
 
 </template>
 
@@ -10,7 +10,7 @@
 import {defineProps, withDefaults, computed} from 'vue'
 import { RouteLocationRaw } from 'vue-router';
     
-const baseStyle = 'py-2 rounded-lg text-sm'
+const baseStyle = 'py-2 px-4 rounded-lg text-sm'
 
 interface Props {
     style : 'primary' | 'secondary',

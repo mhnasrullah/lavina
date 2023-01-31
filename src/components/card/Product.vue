@@ -47,10 +47,9 @@
         star? : number,
         price : number,
         name : string,
-        position? : string
     }
 
-    const {category,image,name,price,star,position} = defineProps<Props>()
+    const {category,image,name,price,star} = defineProps<Props>()
 
     // END PROPS
 
