@@ -8,6 +8,7 @@
             <div class="w-full md:w-1/3 md:mx-auto">
                 <Input
                 class="mt-10"
+                type="primary"
                 :search-icons="true"
                 round="full"
                 placeholder="Search Furniture"/>

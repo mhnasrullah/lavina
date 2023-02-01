@@ -23,5 +23,4 @@ import Text from '@/components/Text.vue';
 import Box from '@/components/Box.vue';
 import {SpesialProduct} from '@/components/card';
 import data from '@/data/spesialProduct.json'
-
 </script>

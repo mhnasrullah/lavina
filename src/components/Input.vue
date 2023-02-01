@@ -1,10 +1,11 @@
 <template>
     <div 
-    class="bg-[#ffffff77] flex p-2 pl-3 border-white border-[1px] text-sm"
+    class="flex p-2 pl-3 border-white border-[1px] text-sm"
     :class="styled">
         <input 
         :placeholder="placeholder"
-        type="text" class="bg-trans outline-none w-full text-white placeholder:text-white">
+        :class="type === 'secondary' ? 'placeholder:text-gray' : 'placeholder:text-white'"
+        type="text" class="bg-trans outline-none w-full">
         <img v-if="searchIcons" src="@/assets/icons/search.svg" class="w-8" alt="icons">
     </div>
 </template>
@@ -14,14 +15,16 @@
     import { defineProps,withDefaults,computed } from 'vue';
 
     interface Props{
-        round? : 'full' | 'small',
+        type? : 'primary' | 'secondary'
+        round? : 'full' | 'medium',
         searchIcons? : boolean,
         placeholder? : string,
         class? : string
     }
 
-    const {round,searchIcons,placeholder,class : classAdd} = withDefaults(defineProps<Props>(),{
-        round : 'small',
+    const {round,searchIcons,placeholder,class : classAdd,type} = withDefaults(defineProps<Props>(),{
+        round : 'medium',
+        type : 'primary'
     })
 
     // Compute Binding style
@@ -29,10 +32,16 @@
 
         const style : string[] = [];
     
+        if(type === 'secondary'){
+            style.push('bg-[#f2f2f2] text-gray')
+        }else{
+            style.push('bg-[#ffffff77] text-white')
+        }
+
         if(classAdd) style.push(classAdd);
     
         if(round === 'full') style.push("rounded-full");
-        else if(round === 'small') style.push("rounded-sm");
+        else style.push("rounded-md");
 
         return style
     })

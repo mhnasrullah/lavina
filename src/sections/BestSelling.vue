@@ -3,7 +3,7 @@
         <Box class="flex justify-between items-center">
             <Text 
             color="text-gray"
-            type="lg">Product Categories</Text>
+            type="lg">Best Selling Products</Text>
             <router-link to="/" class="text-[#00000088] text-xs hover:underline block transition-all">see all</router-link>
         </Box>
         <Box class="space-y-4 mt-6 md:grid md:grid-cols-2 md:space-y-0 md:gap-6 lg:grid-cols-4">
