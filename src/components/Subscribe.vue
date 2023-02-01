@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded-lg shadow-xl md:flex md:items-center md:justify-between p-4 md:py-8 lg:py-10">
+    <div class="rounded-xl shadow-xl md:flex md:items-center md:justify-between p-4 md:py-8 lg:py-10 relative bg-white">
         <div>
             <Text
             type="lg"

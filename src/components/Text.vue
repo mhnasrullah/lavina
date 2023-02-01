@@ -6,7 +6,7 @@
     ><slot/></h1>
     <h2 
     v-else-if="type === 'lg'"
-    class="font-semibold text-lg lg:text-3xl"
+    class="font-semibold text-lg lg:text-2xl"
     :class="style"><slot/></h2>
 </template>
 

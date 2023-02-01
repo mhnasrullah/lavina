@@ -8,6 +8,7 @@
   <Benefits/>
   <Articles/>
   <Newsletter/>
+  <Footer/>
 </template>
 
 <script lang="ts" setup>
@@ -20,4 +21,5 @@ import NewCollection from '@/sections/NewCollection.vue';
 import Benefits from '@/sections/Benefits.vue';
 import Articles from '@/sections/Articles.vue';
 import Newsletter from '@/sections/Newsletter.vue';
+import Footer from '@/sections/Footer.vue';
 </script>

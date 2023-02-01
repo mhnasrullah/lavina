@@ -15,7 +15,7 @@
             </div>
             <div class="flex items-center justify-between mt-5">
                 <p class="text-sm font-semibold text-gray">{{ getPrice }}</p>
-                <button class="p-2 lg:p-3 bg-gray rounded-full hover:bg-orange transition-all">
+                <button class="p-2 lg:p-3 bg-gray rounded-full hover:opacity-90 transition-all">
                     <img src="@/assets/icons/cart.svg" class="w-4" alt="cart">
                 </button>
             </div>

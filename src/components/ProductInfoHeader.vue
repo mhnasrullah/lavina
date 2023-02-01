@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="w-[200px] flex justify-center">
-            <button @click="toggleShow" class="h-4 w-4 rounded-full bg-white" />
+            <button @click="toggleShow" class="h-4 w-4 rounded-full bg-white border-2 border-trans hover:border-orange transition" />
         </div>
     </div>
 </template>

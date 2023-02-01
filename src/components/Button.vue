@@ -10,7 +10,7 @@
 import {defineProps, withDefaults, computed} from 'vue'
 import { RouteLocationRaw } from 'vue-router';
     
-const baseStyle = 'py-2 px-4 rounded-lg text-sm whitespace-nowrap'
+const baseStyle = 'py-2 px-4 rounded-lg text-sm whitespace-nowrap hover:opacity-90'
 
 interface Props {
     style : 'primary' | 'secondary',

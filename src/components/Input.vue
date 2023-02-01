@@ -6,7 +6,9 @@
         :placeholder="placeholder"
         :class="type === 'secondary' ? 'placeholder:text-gray' : 'placeholder:text-white'"
         type="text" class="bg-trans outline-none w-full">
-        <img v-if="searchIcons" src="@/assets/icons/search.svg" class="w-8" alt="icons">
+        <button v-if="searchIcons" class="hover:opacity-90">
+            <img src="@/assets/icons/search.svg" class="w-8" alt="icons">
+        </button>
     </div>
 </template>
 
